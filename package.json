@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "sonic-channel": "^1.2.6",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
