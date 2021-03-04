@@ -1,9 +1,11 @@
 const express = require("express");
+const { v4: uuid } = require("uuid");
 
 const app = express();
 
 app.post("/pages", (req, res) => {
-  // Salvar no banco
+  const { title, content } = req.body;
+
   return res.status(202).send();
 });
 
