@@ -1,0 +1,96 @@
+2021/03/04-03:21:04.358442 7f096117b700 RocksDB version: 6.7.3
+2021/03/04-03:21:04.359120 7f096117b700 Git sha rocksdb_build_git_sha:@0915c99f01b46f50af8e02da8b6528156f584b7c@
+2021/03/04-03:21:04.359138 7f096117b700 Compile date Jun 29 2020
+2021/03/04-03:21:04.359142 7f096117b700 DB SUMMARY
+2021/03/04-03:21:04.363485 7f096117b700 CURRENT file:  CURRENT
+2021/03/04-03:21:04.363506 7f096117b700 IDENTITY file:  IDENTITY
+2021/03/04-03:21:04.364736 7f096117b700 MANIFEST file:  MANIFEST-000001 size: 13 Bytes
+2021/03/04-03:21:04.364760 7f096117b700 SST files in /var/lib/sonic/store/kv/e6f474bf dir, Total Num: 0, files: 
+2021/03/04-03:21:04.364765 7f096117b700 Write Ahead Log file in /var/lib/sonic/store/kv/e6f474bf: 000003.log size: 0 ; 
+2021/03/04-03:21:04.364770 7f096117b700                         Options.error_if_exists: 0
+2021/03/04-03:21:04.364774 7f096117b700                       Options.create_if_missing: 1
+2021/03/04-03:21:04.364777 7f096117b700                         Options.paranoid_checks: 1
+2021/03/04-03:21:04.364779 7f096117b700                                     Options.env: 0x55b470ec3ec0
+2021/03/04-03:21:04.364783 7f096117b700                                      Options.fs: Posix File System
+2021/03/04-03:21:04.364786 7f096117b700                                Options.info_log: 0x7f095000be00
+2021/03/04-03:21:04.364790 7f096117b700                Options.max_file_opening_threads: 16
+2021/03/04-03:21:04.364792 7f096117b700                              Options.statistics: (nil)
+2021/03/04-03:21:04.364795 7f096117b700                               Options.use_fsync: 0
+2021/03/04-03:21:04.364798 7f096117b700                       Options.max_log_file_size: 0
+2021/03/04-03:21:04.364801 7f096117b700                  Options.max_manifest_file_size: 1073741824
+2021/03/04-03:21:04.364803 7f096117b700                   Options.log_file_time_to_roll: 0
+2021/03/04-03:21:04.364806 7f096117b700                       Options.keep_log_file_num: 1000
+2021/03/04-03:21:04.364809 7f096117b700                    Options.recycle_log_file_num: 0
+2021/03/04-03:21:04.364811 7f096117b700                         Options.allow_fallocate: 1
+2021/03/04-03:21:04.364814 7f096117b700                        Options.allow_mmap_reads: 0
+2021/03/04-03:21:04.364816 7f096117b700                       Options.allow_mmap_writes: 0
+2021/03/04-03:21:04.364819 7f096117b700                        Options.use_direct_reads: 0
+2021/03/04-03:21:04.364821 7f096117b700                        Options.use_direct_io_for_flush_and_compaction: 0
+2021/03/04-03:21:04.364824 7f096117b700          Options.create_missing_column_families: 0
+2021/03/04-03:21:04.364826 7f096117b700                              Options.db_log_dir: 
+2021/03/04-03:21:04.364829 7f096117b700                                 Options.wal_dir: /var/lib/sonic/store/kv/e6f474bf
+2021/03/04-03:21:04.364831 7f096117b700                Options.table_cache_numshardbits: 6
+2021/03/04-03:21:04.364833 7f096117b700                      Options.max_subcompactions: 1
+2021/03/04-03:21:04.364835 7f096117b700                  Options.max_background_flushes: 1
+2021/03/04-03:21:04.364837 7f096117b700                         Options.WAL_ttl_seconds: 0
+2021/03/04-03:21:04.364839 7f096117b700                       Options.WAL_size_limit_MB: 0
+2021/03/04-03:21:04.364841 7f096117b700                        Options.max_write_batch_group_size_bytes: 1048576
+2021/03/04-03:21:04.364843 7f096117b700             Options.manifest_preallocation_size: 4194304
+2021/03/04-03:21:04.364845 7f096117b700                     Options.is_fd_close_on_exec: 1
+2021/03/04-03:21:04.364847 7f096117b700                   Options.advise_random_on_open: 1
+2021/03/04-03:21:04.364849 7f096117b700                    Options.db_write_buffer_size: 0
+2021/03/04-03:21:04.364851 7f096117b700                    Options.write_buffer_manager: 0x7f0950005dd0
+2021/03/04-03:21:04.364853 7f096117b700         Options.access_hint_on_compaction_start: 1
+2021/03/04-03:21:04.364855 7f096117b700  Options.new_table_reader_for_compaction_inputs: 0
+2021/03/04-03:21:04.364857 7f096117b700           Options.random_access_max_buffer_size: 1048576
+2021/03/04-03:21:04.365202 7f096117b700                      Options.use_adaptive_mutex: 0
+2021/03/04-03:21:04.365214 7f096117b700                            Options.rate_limiter: (nil)
+2021/03/04-03:21:04.365219 7f096117b700     Options.sst_file_manager.rate_bytes_per_sec: 0
+2021/03/04-03:21:04.365222 7f096117b700                       Options.wal_recovery_mode: 2
+2021/03/04-03:21:04.365224 7f096117b700                  Options.enable_thread_tracking: 0
+2021/03/04-03:21:04.365227 7f096117b700                  Options.enable_pipelined_write: 0
+2021/03/04-03:21:04.365230 7f096117b700                  Options.unordered_write: 0
+2021/03/04-03:21:04.365232 7f096117b700         Options.allow_concurrent_memtable_write: 1
+2021/03/04-03:21:04.365234 7f096117b700      Options.enable_write_thread_adaptive_yield: 1
+2021/03/04-03:21:04.365237 7f096117b700             Options.write_thread_max_yield_usec: 100
+2021/03/04-03:21:04.365240 7f096117b700            Options.write_thread_slow_yield_usec: 3
+2021/03/04-03:21:04.365243 7f096117b700                               Options.row_cache: None
+2021/03/04-03:21:04.365245 7f096117b700                              Options.wal_filter: None
+2021/03/04-03:21:04.365248 7f096117b700             Options.avoid_flush_during_recovery: 0
+2021/03/04-03:21:04.365251 7f096117b700             Options.allow_ingest_behind: 0
+2021/03/04-03:21:04.365254 7f096117b700             Options.preserve_deletes: 0
+2021/03/04-03:21:04.365257 7f096117b700             Options.two_write_queues: 0
+2021/03/04-03:21:04.365259 7f096117b700             Options.manual_wal_flush: 0
+2021/03/04-03:21:04.365261 7f096117b700             Options.atomic_flush: 0
+2021/03/04-03:21:04.365264 7f096117b700             Options.avoid_unnecessary_blocking_io: 0
+2021/03/04-03:21:04.365267 7f096117b700                 Options.persist_stats_to_disk: 0
+2021/03/04-03:21:04.365270 7f096117b700                 Options.write_dbid_to_manifest: 0
+2021/03/04-03:21:04.365273 7f096117b700                 Options.log_readahead_size: 0
+2021/03/04-03:21:04.365275 7f096117b700             Options.max_background_jobs: 2
+2021/03/04-03:21:04.365278 7f096117b700             Options.max_background_compactions: 1
+2021/03/04-03:21:04.365281 7f096117b700             Options.avoid_flush_during_shutdown: 0
+2021/03/04-03:21:04.365284 7f096117b700           Options.writable_file_max_buffer_size: 1048576
+2021/03/04-03:21:04.365287 7f096117b700             Options.delayed_write_rate : 16777216
+2021/03/04-03:21:04.365290 7f096117b700             Options.max_total_wal_size: 0
+2021/03/04-03:21:04.365293 7f096117b700             Options.delete_obsolete_files_period_micros: 21600000000
+2021/03/04-03:21:04.365297 7f096117b700                   Options.stats_dump_period_sec: 600
+2021/03/04-03:21:04.365299 7f096117b700                 Options.stats_persist_period_sec: 600
+2021/03/04-03:21:04.365302 7f096117b700                 Options.stats_history_buffer_size: 1048576
+2021/03/04-03:21:04.365305 7f096117b700                          Options.max_open_files: 100
+2021/03/04-03:21:04.365308 7f096117b700                          Options.bytes_per_sync: 0
+2021/03/04-03:21:04.365311 7f096117b700                      Options.wal_bytes_per_sync: 0
+2021/03/04-03:21:04.365314 7f096117b700                   Options.strict_bytes_per_sync: 0
+2021/03/04-03:21:04.365318 7f096117b700       Options.compaction_readahead_size: 0
+2021/03/04-03:21:04.365320 7f096117b700 Compression algorithms supported:
+2021/03/04-03:21:04.365324 7f096117b700 	kZSTDNotFinalCompression supported: 1
+2021/03/04-03:21:04.365329 7f096117b700 	kZSTD supported: 1
+2021/03/04-03:21:04.365332 7f096117b700 	kXpressCompression supported: 0
+2021/03/04-03:21:04.365335 7f096117b700 	kLZ4HCCompression supported: 1
+2021/03/04-03:21:04.365338 7f096117b700 	kLZ4Compression supported: 1
+2021/03/04-03:21:04.365342 7f096117b700 	kBZip2Compression supported: 1
+2021/03/04-03:21:04.365345 7f096117b700 	kZlibCompression supported: 1
+2021/03/04-03:21:04.365348 7f096117b700 	kSnappyCompression supported: 1
+2021/03/04-03:21:04.365362 7f096117b700 Fast CRC32 supported: Supported on x86
+2021/03/04-03:21:04.380287 7f096117b700 [version_set.cc:4402] Recovering from manifest file: /var/lib/sonic/store/kv/e6f474bf/MANIFEST-000005
+2021/03/04-03:21:04.381098 7f096117b700 [db_impl/db_impl.cc:397] Shutdown: canceling all background work
+2021/03/04-03:21:04.381341 7f096117b700 [db_impl/db_impl.cc:573] Shutdown complete
